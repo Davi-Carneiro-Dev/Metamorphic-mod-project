@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "metamorphic:block/bornite_lamp"
+    },
+    "lit=true": {
+      "model": "metamorphic:block/bornite_lamp_on"
+    }
+  }
+}

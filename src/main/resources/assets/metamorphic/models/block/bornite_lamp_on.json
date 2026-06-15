@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "metamorphic:block/bornite_lamp_on"
+  }
+}

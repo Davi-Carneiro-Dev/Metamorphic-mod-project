@@ -1,0 +1,25 @@
+{
+  "metamorphic.configuration.title": "<Metamorphic  Configs",
+  "metamorphic.configuration.section.metamorphic.common.toml": "<Metamorphic  Configs",
+  "metamorphic.configuration.section.metamorphic.common.toml.title": "<Metamorphic  Configs",
+  "metamorphic.configuration.items": "Item List",
+  "metamorphic.configuration.logDirtBlock": "Log Dirt Block",
+  "metamorphic.configuration.magicNumberIntroduction": "Magic Number Text",
+  "metamorphic.configuration.magicNumber": "Magic Number",
+
+  "itemGroup.metamorphic": "Metamorphic",
+
+  "item.metamorphic.raw_bornite": "Raw Bornite",
+  "item.metamorphic.bornite_nugget": "Bornite Nugget",
+  "item.metamorphic.bornite_shard": "Bornite Shard",
+
+  "block.metamorphic.bornite_ore": "Bornite Ore",
+  "block.metamorphic.deepslate_bornite_ore": "Deepslate Bornite Ore",
+  "block.metamorphic.bornite_block": "Bornite Block",
+  "block.metamorphic.bornite_lamp": "Bornite Lamp",
+  "block.metamorphic.bornite_sea_lantern": "Bornite Sea Lantern",
+
+  "trim_material.metamorphic.bornite": "Bornite"
+
+}
+

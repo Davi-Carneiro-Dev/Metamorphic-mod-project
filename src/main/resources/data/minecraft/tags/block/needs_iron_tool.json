@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "metamorphic:bornite_ore",
+    "metamorphic:deepslate_bornite_ore",
+    "metamorphic:bornite_block"
+  ]
+}
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " S ",
+    "SLS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "metamorphic:bornite_shard"
+    },
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "id": "metamorphic:bornite_lamp",
+    "count": 1
+  }
+}

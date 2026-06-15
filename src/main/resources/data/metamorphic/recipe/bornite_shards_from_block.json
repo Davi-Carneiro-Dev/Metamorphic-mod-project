@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "metamorphic:bornite_block"
+    }
+  ],
+  "result": {
+    "id": "metamorphic:bornite_shard",
+    "count": 9
+  }
+}
