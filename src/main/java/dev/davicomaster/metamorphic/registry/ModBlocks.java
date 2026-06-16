@@ -60,6 +60,17 @@ public class ModBlocks {
                     .sound(SoundType.GLASS))
     );
 
+    // Estaurolita - Minério
+
+    public static final DeferredBlock<Block> DEEPSLATE_STAUROLITE_ORE = registerBlock(
+            "deepslate_staurolite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 6.0F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE))
+    );
+
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> registeredBlock = BLOCKS.register(name, block);
         registerBlockItem(name, registeredBlock);
@@ -69,4 +80,5 @@ public class ModBlocks {
     private static <T extends Block> DeferredItem<BlockItem> registerBlockItem(String name, DeferredBlock<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
+
 }

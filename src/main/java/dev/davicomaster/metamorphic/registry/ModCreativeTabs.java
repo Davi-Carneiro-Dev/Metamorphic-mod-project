@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+
 public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Metamorphic.MODID);
@@ -28,6 +29,31 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.BORNITE_BLOCK.get());
                         output.accept(ModBlocks.BORNITE_LAMP.get());
                         output.accept(ModBlocks.BORNITE_SEA_LANTERN.get());
+
+                        // Estaurolita
+                        output.accept(ModBlocks.DEEPSLATE_STAUROLITE_ORE.get());
+                        output.accept(ModItems.IMPURE_STAUROLITE.get());
+                        output.accept(ModItems.PURE_STAUROLITE.get());
+                        output.accept(ModItems.STAUROLITE_TOTEM.get());
+                        output.accept(ModItems.STAUROLITE_APPLE.get());
+
+                        //MISC
+                        output.accept(ModItems.PURIFICATION_BOOK.get());
+
                     })
                     .build());
 }
+
+//Future Org
+
+//Ores
+
+//Blocks
+
+//items
+
+//Armour
+
+//Food
+
+//Misc

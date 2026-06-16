@@ -12,14 +12,20 @@
   "item.metamorphic.raw_bornite": "Raw Bornite",
   "item.metamorphic.bornite_nugget": "Bornite Nugget",
   "item.metamorphic.bornite_shard": "Bornite Shard",
-
   "block.metamorphic.bornite_ore": "Bornite Ore",
   "block.metamorphic.deepslate_bornite_ore": "Deepslate Bornite Ore",
   "block.metamorphic.bornite_block": "Bornite Block",
   "block.metamorphic.bornite_lamp": "Bornite Lamp",
   "block.metamorphic.bornite_sea_lantern": "Bornite Sea Lantern",
+  "trim_material.metamorphic.bornite": "Bornite",
 
-  "trim_material.metamorphic.bornite": "Bornite"
+  "block.metamorphic.deepslate_staurolite_ore": "Deepslate Staurolite Ore",
+  "item.metamorphic.impure_staurolite": "Impure Staurolite",
+  "item.metamorphic.pure_staurolite": "Pure Staurolite",
+  "item.metamorphic.staurolite_totem": "Staurolite Totem",
+  "item.metamorphic.staurolite_apple": "Staurolite Apple",
+  "item.metamorphic.purification_book": "Enchanted Book: Purification"
+
 
 }
 

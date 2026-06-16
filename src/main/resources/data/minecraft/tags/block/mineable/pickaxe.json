@@ -3,6 +3,7 @@
   "values": [
     "metamorphic:bornite_ore",
     "metamorphic:deepslate_bornite_ore",
-    "metamorphic:bornite_block"
+    "metamorphic:bornite_block",
+    "metamorphic:deepslate_staurolite_ore"
   ]
 }
