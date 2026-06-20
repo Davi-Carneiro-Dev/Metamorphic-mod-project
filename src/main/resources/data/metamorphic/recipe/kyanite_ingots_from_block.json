@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "metamorphic:kyanite_block"
+    }
+  ],
+  "result": {
+    "id": "metamorphic:kyanite_ingot",
+    "count": 9
+  }
+}

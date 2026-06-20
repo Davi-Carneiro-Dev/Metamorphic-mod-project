@@ -4,6 +4,9 @@
     "metamorphic:bornite_ore",
     "metamorphic:deepslate_bornite_ore",
     "metamorphic:bornite_block",
-    "metamorphic:deepslate_staurolite_ore"
+    "metamorphic:deepslate_staurolite_ore",
+    "metamorphic:kyanite_ore",
+    "metamorphic:deepslate_kyanite_ore",
+    "metamorphic:kyanite_block"
   ]
 }

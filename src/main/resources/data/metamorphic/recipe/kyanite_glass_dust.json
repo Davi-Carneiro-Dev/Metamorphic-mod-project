@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GK",
+    "KG"
+  ],
+  "key": {
+    "G": {
+      "item": "metamorphic:glass_dust"
+    },
+    "K": {
+      "item": "metamorphic:kyanite_dust"
+    }
+  },
+  "result": {
+    "id": "metamorphic:kyanite_glass_dust",
+    "count": 1
+  }
+}

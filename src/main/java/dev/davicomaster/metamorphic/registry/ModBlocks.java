@@ -11,14 +11,14 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
 import java.util.function.Supplier;
+import net.minecraft.world.level.block.IronBarsBlock;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Metamorphic.MODID);
 
-    // Bornita - Minérios
+    // Bornite - Ores
     public static final DeferredBlock<Block> BORNITE_ORE = registerBlock(
             "bornite_ore",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -35,7 +35,8 @@ public class ModBlocks {
                     .sound(SoundType.DEEPSLATE))
     );
 
-    // Bornita - Blocos decorativos
+    // Bornite - Decorative Blocks
+
     public static final DeferredBlock<Block> BORNITE_BLOCK = registerBlock(
             "bornite_block",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -60,7 +61,7 @@ public class ModBlocks {
                     .sound(SoundType.GLASS))
     );
 
-    // Estaurolita - Minério
+    // Staurolite - Ores
 
     public static final DeferredBlock<Block> DEEPSLATE_STAUROLITE_ORE = registerBlock(
             "deepslate_staurolite_ore",
@@ -69,6 +70,51 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE))
     );
+
+    // Kyanite - Ores
+
+    public static final DeferredBlock<Block> KYANITE_ORE = registerBlock(
+            "kyanite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3.0F, 3.0F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE))
+    );
+
+    public static final DeferredBlock<Block> DEEPSLATE_KYANITE_ORE = registerBlock(
+            "deepslate_kyanite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.5F, 3.0F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE))
+    );
+
+    // Kyanite - Decorative Blocks
+
+    public static final DeferredBlock<Block> KYANITE_BLOCK = registerBlock(
+            "kyanite_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 6.0F)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL))
+    );
+
+    public static final DeferredBlock<Block> KYANITE_GLASS = registerBlock(
+            "kyanite_glass",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.3F)
+                    .sound(SoundType.GLASS)
+                    .noOcclusion())
+    );
+
+    public static final DeferredBlock<IronBarsBlock> KYANITE_GLASS_PANE = registerBlock(
+            "kyanite_glass_pane",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of()
+                    .strength(0.3F)
+                    .sound(SoundType.GLASS)
+                    .noOcclusion())
+    );
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

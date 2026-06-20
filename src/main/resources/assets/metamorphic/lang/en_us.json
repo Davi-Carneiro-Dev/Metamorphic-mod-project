@@ -24,8 +24,34 @@
   "item.metamorphic.pure_staurolite": "Pure Staurolite",
   "item.metamorphic.staurolite_totem": "Staurolite Totem",
   "item.metamorphic.staurolite_apple": "Staurolite Apple",
-  "item.metamorphic.purification_book": "Enchanted Book: Purification"
 
+  "block.metamorphic.deepslate_kyanite_ore": "Deepslate Kyanite Ore",
+  "block.metamorphic.kyanite_block": "Kyanite Block",
+  "item.metamorphic.raw_kyanite": "Raw Kyanite",
+  "block.metamorphic.kyanite_glass": "Kyanite Glass",
+  "block.metamorphic.kyanite_glass_pane": "Kyanite Glass Pane",
+
+  "block.metamorphic.kyanite_ore": "Kyanite Ore",
+  "item.metamorphic.kyanite_ingot": "Kyanite Ingot",
+  "item.metamorphic.purified_kyanite_ingot": "Purified Kyanite Ingot",
+  "item.metamorphic.kyanite_dust": "Kyanite Dust",
+  "item.metamorphic.glass_dust": "Glass Dust",
+  "item.metamorphic.kyanite_glass_dust": "Kyanite Glass Dust",
+  "item.metamorphic.sharp_kyanite_shard": "Sharp Kyanite Shard",
+
+  "item.metamorphic.kyanite_sword": "Kyanite Sword",
+  "item.metamorphic.kyanite_pickaxe": "Kyanite Pickaxe",
+  "item.metamorphic.kyanite_axe": "Kyanite Axe",
+  "item.metamorphic.kyanite_shovel": "Kyanite Shovel",
+  "item.metamorphic.kyanite_hoe": "Kyanite Hoe",
+
+  "item.metamorphic.kyanite_helmet": "Kyanite Helmet",
+  "item.metamorphic.kyanite_chestplate": "Kyanite Chestplate",
+  "item.metamorphic.kyanite_leggings": "Kyanite Leggings",
+  "item.metamorphic.kyanite_boots": "Kyanite Boots",
+  "item.metamorphic.kyanite_trident": "Kyanite Trident",
+
+  "item.metamorphic.purification_book": "Enchanted Book: Purification"
 
 }
 

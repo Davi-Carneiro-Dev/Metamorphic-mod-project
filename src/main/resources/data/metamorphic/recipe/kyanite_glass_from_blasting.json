@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "metamorphic:kyanite_glass_dust"
+  },
+  "result": {
+    "id": "metamorphic:kyanite_glass"
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "G",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "metamorphic:kyanite_glass"
+    }
+  },
+  "result": {
+    "id": "metamorphic:sharp_kyanite_shard",
+    "count": 1
+  }
+}

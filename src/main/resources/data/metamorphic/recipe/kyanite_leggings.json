@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "KKK",
+    "K K",
+    "K K"
+  ],
+  "key": {
+    "K": {
+      "item": "metamorphic:kyanite_ingot"
+    }
+  },
+  "result": {
+    "id": "metamorphic:kyanite_leggings",
+    "count": 1
+  }
+}

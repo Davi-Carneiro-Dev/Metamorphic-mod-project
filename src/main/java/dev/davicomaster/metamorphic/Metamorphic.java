@@ -7,6 +7,7 @@ import dev.davicomaster.metamorphic.registry.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
+import dev.davicomaster.metamorphic.registry.ModArmorMaterials;
 
 @Mod(Metamorphic.MODID)
 public class Metamorphic {
@@ -17,5 +18,6 @@ public class Metamorphic {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
     }
 }

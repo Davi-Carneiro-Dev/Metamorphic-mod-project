@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "KKK",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "K": {
+      "item": "metamorphic:kyanite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "metamorphic:kyanite_pickaxe",
+    "count": 1
+  }
+}

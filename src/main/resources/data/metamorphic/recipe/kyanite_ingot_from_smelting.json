@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "metamorphic:raw_kyanite"
+  },
+  "result": {
+    "id": "metamorphic:kyanite_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
